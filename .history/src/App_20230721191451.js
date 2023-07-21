@@ -8,11 +8,11 @@ const DUMMY_USERS = [
 ];
 
 function App() {
-  const usersContext = {
+  const UsersContext = {
     users: DUMMY_USERS,
   };
   return (
-    <UsersContext.Provider value={usersContext}>
+    <UsersContext.Provider value={UsersContext}>
       <UserFinder />
     </UsersContext.Provider>
   );
